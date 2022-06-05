@@ -141,7 +141,7 @@ def preprocess(body):
         response = None
         while response == None:
             try:
-                headers1 = {"Authorization": "Bearer GDR1M2L7HIC6ESPH7HA8T2QVNS4BNBMMV30RH3771F3POULFMMC2GKK52B0AJ2GC"}
+                headers1 = {"Authorization": "Bearer token"}
                 response = requests.get(query, headers=headers1)
             except:
                 print("Connection refused by the server..")
